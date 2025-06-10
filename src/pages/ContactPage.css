@@ -1,0 +1,38 @@
+.page {
+   
+    max-width: 960px;
+    height: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px #0000000d;  
+    overflow: scroll; 
+    align-items: center;
+}
+.section {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+.root{
+      display: block;
+      float:right;
+}
+.main-layout {
+     width: 145%;
+    display: flex;
+    flex-direction: column;
+    background-color: #d5d1cb;
+}
+.content {
+    background-color: #52d2d2;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+     padding: 20px;     
+}
