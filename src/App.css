@@ -13,12 +13,10 @@
     position: absolute;
     top: 15px;
     right: 15px;
-    background: none;
-    border: none;
     font-size: 2em;
     color: #383229;
     cursor: pointer;
-    z-index: 1010;
+   
 }
 .content {
     background-color: #52d2d2;
@@ -106,7 +104,7 @@ li {
     text-align: center;
     margin-top: 40px;
 }
-.drawer-nav .nav-item {
+.close-btn .nav-item {
     color: #575e59;
     padding: 15px 20px;
     border-bottom: 1px solid #E0E0E0;
@@ -135,4 +133,41 @@ video{
     height:auto;
     overflow: clip;
     display:block;
+}
+
+ .main-header {
+    background-color: #007bff;
+   color:rgb(218, 186, 186);
+    padding: 15px 20px;
+    display: flex;
+    align-items:center;
+    position: sticky;
+    top: 0;
+}
+.college-name {
+    font-size: 1.8em;
+    font-weight: 700;
+    
+}
+.first-nav {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    unicode-bidi: isolate;
+}
+nav{
+    unicode-bidi: isolate;
+   
+}
+.second-nav {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 200px;
+    height: 100%;
+    background-color: #eff0ef;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+
 }
