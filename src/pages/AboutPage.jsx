@@ -9,7 +9,7 @@ const AboutPage = () => {
             <div className='main-layout'>
             <Header/>
             <div className='content'>
-                <div className='page-container'>
+                <div className='page'>
             
                          <div>
                     <h1>About Vivekanand College</h1>

@@ -9,7 +9,7 @@ const ContactPage = () => {
             <div className='main-layout'>
             <Header/>
             <div className='content'>
-                    <div className='page-container'>
+                    <div className='page'>
             <div>
                 <h1>Contact Us</h1>
                 <p>We'd love to hear from you! Whether you have questions about admissions, programs, or campus life, our team is here to help.</p>

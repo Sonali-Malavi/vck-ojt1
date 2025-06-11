@@ -14,7 +14,7 @@ const HomePage = () => {
                         <img  className="banner-image" alt="vck-banner" src="clgbanner.png"></img>
                   
                      <div className='name-on-img'>
-                         <h1>Welcome to Vivekanand college</h1>
+                         <h1 style={{color:"white"}}>Welcome to Vivekanand college</h1>
                          <p> Your journey to excellence starts here. </p>
                          <a href='/AdmissionPage' className="button " >Apply now</a>  
                      </div>

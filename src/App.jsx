@@ -5,7 +5,8 @@ import AboutPage from './pages/AboutPage'
 import CoursesPage from './pages/CoursesPage'
 import ContactPage from './pages/ContactPage'
 import AdmissionPage from './pages/AdmissionPage'
-import "./App.css"
+import NotFoundPage from './pages/NotFoundPage'
+import "./styles/pages.css"
 
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
               <Route path="/coursespage" element={<CoursesPage/>}/>
               <Route path="/contactpage" element={<ContactPage/>}/>
               <Route path="/admissionpage" element={<AdmissionPage/>}/>
+              <Route path="/notfoundpage" element={<NotFoundPage/>} />
           </Routes>
       </BrowserRouter>
         </div>

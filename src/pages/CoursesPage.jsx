@@ -8,7 +8,7 @@ const CoursesPage = () => {
             <div className='main-layout'>
             <Header/>
             <div className='content'>
-                <div className='page-container'>
+                <div className='page'>
                 <div>
                     <h1>Our Academic Programs</h1>
                 </div>
