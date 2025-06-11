@@ -7,6 +7,7 @@ import ContactPage from './pages/ContactPage'
 import AdmissionPage from './pages/AdmissionPage'
 import NotFoundPage from './pages/NotFoundPage'
 import "./styles/pages.css"
+import ChatbotComponent from './components/Chatbot/ChatbotComponents'
 
 
 const App = () => {
@@ -24,8 +25,10 @@ const App = () => {
               <Route path="/admissionpage" element={<AdmissionPage/>}/>
               <Route path="/notfoundpage" element={<NotFoundPage/>} />
           </Routes>
+          
       </BrowserRouter>
         </div>
+        <ChatbotComponent/>
     </div>
   )
 }
