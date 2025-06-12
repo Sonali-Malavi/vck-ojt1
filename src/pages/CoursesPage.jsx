@@ -61,11 +61,11 @@ const CoursesPage = () => {
                  <h2>Program Details & Fee Structure (Annual)</h2>
                  <table className='admission-table'>
                     <tr>
-                        <td>Program Type</td>
-                        <td>Course Name</td>
-                        <td> Duration</td>
-                        <td>Annual Fee (INR)</td>
-                        <td>Eligibility</td>
+                        <th>Program Type</th>
+                        <th>Course Name</th>
+                        <th> Duration</th>
+                        <th>Annual Fee (INR)</th>
+                        <th>Eligibility</th>
                     </tr>
                     <tr>
                         <td>UG</td>
