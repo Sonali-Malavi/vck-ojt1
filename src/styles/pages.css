@@ -90,10 +90,18 @@ li {
 
 .vck-image {
     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-    grid-template-columns: 1fr;
+}
+.vck-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #0000001a;
+    transition: transform .3s ease;
 }
 .last {
     text-align: center;

@@ -38,8 +38,8 @@ const HomePage = () => {
                     <h2>Campus Life & Facilities</h2>
                     <div className='vck-image'>
 
-                    <img src="\images\vckhome_files\students-studying-DbLGuwF_.jpeg" width="386px" height="130px"></img>   
-                    <img src="\images\vckhome_files\campus-life-Crkero7B.jpg" ></img>
+                    <img src="\images\vckhome_files\students-studying-DbLGuwF_.jpeg"  ></img>   
+                    <img src="\images\vckhome_files\campus-life-Crkero7B.jpg"></img>
                     </div> 
 
                     <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.</p>
