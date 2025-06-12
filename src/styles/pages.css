@@ -203,24 +203,3 @@ body {
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
-.admissions-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
-  margin-bottom: 30px;
-  background-color: #F8F9FA;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-}
-.admissions-table th,
-.admissions-table td {
-  border: 1px solid #DEE2E6;
-  padding: 12px;
-  text-align: left;
-  font-size: 0.95em;
-}
-
-.admissions-table th {
-  background-color: #E9ECEF;
-  font-weight: bold;
-  color: #343A40;
-}
