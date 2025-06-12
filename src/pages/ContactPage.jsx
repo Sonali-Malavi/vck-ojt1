@@ -33,8 +33,12 @@ const ContactPage = () => {
                     Email: studentsupport@vivekanandcollege.edu</p>
 
                 <h2>Find Us on the Map</h2>
-                <p>[You can embed a Google Map here later using an iframe or a React map library.]</p>
+                <p>[You can embed a Google Map here later using an iframe or a React map library.]<br></br>
                 <a href="https://maps.google.com/?q=Vivekanand+College" target="_blank" rel="noopener noreferrer">View on Google Maps</a>
+                </p>
+
+                <h2>Send Us a Message</h2>
+                <p>[A contact form with fields for Name, Email, Subject, Message can be added here.]</p>
             </div>
             </div>
             </div>
