@@ -17,6 +17,9 @@ const CoursesPage = () => {
                  <h2>Discover Campus Life</h2>
                  <video src="\videos\collegetour.mp4" type="video/mp4" controls>
                  </video>
+                  <p className="video-caption">
+                      Get a glimpse of the vibrant academic and social life at Vivekanand College.
+                 </p>
 
                  <h2>Undergraduate Programs (UG)</h2>
                  <ul>
@@ -56,7 +59,7 @@ const CoursesPage = () => {
                  </ul>
 
                  <h2>Program Details & Fee Structure (Annual)</h2>
-                 <table>
+                 <table className='admission-table'>
                     <tr>
                         <td>Program Type</td>
                         <td>Course Name</td>
