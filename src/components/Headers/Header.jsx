@@ -23,7 +23,6 @@ const Header = () => {
                 <a className="nav-item" href="/">Contact</a>
                 <a className='nav-item' href="/AdmissionPage">Apply Now</a>
             </nav>
-
         </header>
     )
 }
